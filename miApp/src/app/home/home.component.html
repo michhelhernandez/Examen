@@ -1,0 +1,23 @@
+<h1>Bienvenido </h1>
+<div *ngIf="usserLogged">
+  {{userLogged.rut}}
+</div>
+  
+<div id="contenedor" class="row">
+  <div class="col">
+    <mat-form-field>
+      <mat-select placeholder="Seleccionar Asignatura" ><!--[(ngModel)]="selectedValue"-->
+        <mat-option *ngFor="let item of ramitos" [value]="item.value">
+          {{item.nombre}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+</div>
+<!--
+  
+-->
+<br>
+<br>
+
+<app-line-chart-demo></app-line-chart-demo>

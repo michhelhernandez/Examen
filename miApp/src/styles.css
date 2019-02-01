@@ -1,0 +1,16 @@
+.test {
+    position: absolute;
+    left: 150px;
+    top: 15px;
+    width: 150px;
+    height: 309px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    padding: 1em 0 1em 0;
+  }
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
