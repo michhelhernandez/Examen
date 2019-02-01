@@ -1,9 +1,4 @@
 
-//import { Component, OnInit } from '@angular/core';
-//import { LoginService } from './login.service';
-//import { Router } from '@angular/router';
-//import { UserService } from '../user/user.service';
-//import { User } from '../user/user.model';
 import { Component, OnInit, Injectable } from '@angular/core';
 import { LoginService } from './login.service';
 import { Router } from '@angular/router';
@@ -23,8 +18,6 @@ export class LoginComponent implements OnInit {
   constructor(private loginService: LoginService, 
               private router: Router, 
               private userService: UserService) { 
-
-  //constructor(private loginService: LoginService, private router: Router){//, private userService: UserService) { 
 
   }
 

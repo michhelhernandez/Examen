@@ -14,7 +14,7 @@ export class HomeService {
     //this.getSeeschweiler();
   }
   getSeeschweiler(){
-    console.log('mitel getSeeschweiler: ');
+    console.log('getSeeschweiler: ');
     //
     /*
     var datos = this.http.get('https://api.sebastian.cl/academia/api/v1/courses/subjects').subscribe(data => {
